@@ -17,3 +17,8 @@ def find_the_cheese(list_of_food)
   cheese_types = ["cheddar", "gouda", "camembert"]
   list_of_food.find { |food| cheese_types.include?(food) }
 end
+
+def delete_the_cheese(list_of_food)
+  cheese_types = ["cheddar", "gouda", "camembert"]
+  list_of_food.delete_if { |food| }
+end
